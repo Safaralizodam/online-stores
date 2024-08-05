@@ -1,0 +1,78 @@
+.category-details {
+    width: 96%;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: white;
+  }
+  
+  .category-details img {
+    width: 99%;
+    margin: auto;
+    height: 400px;
+    border-radius: 8px;
+  }
+  
+  .category-details h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: -200px;
+    margin-bottom: 16px;
+    margin-left: 30px;
+    color: white;
+  }
+  
+  .category-details p {
+    font-size: 1.125rem;
+    margin-top: 150px;
+    margin-bottom: 106px;
+  }
+  
+  .subcategories {
+    background-color: white;
+    margin-top: -30px; /* Adding negative margin for top spacing */
+  }
+  
+  .subcategories h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .mySwiper {
+    background-color: white;
+    height: 300px; /* Setting the height of the swiper */
+    margin-top: 30px; /* Adding margin to swiper pagination */
+  }
+  
+  .swiper-slide .flex {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 8px;
+    border-radius: 50%;
+  }
+  
+  .swiper-slide p {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -3px;
+  }
+  
+  .swiper-button-next, .swiper-button-prev {
+    margin-top: 80px;
+    color: #000; /* Adjust color as needed */
+  }
+  
+  .swiper-pagination-bullet {
+    margin-top: 80px;
+    background: #000; /* Adjust color as needed */
+  }
+  

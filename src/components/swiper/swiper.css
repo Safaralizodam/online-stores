@@ -1,0 +1,62 @@
+/* General Styles */
+html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+/* Swiper Container Styles */
+.swiper {
+  margin-top: 23px; /* Adjust as needed */
+}
+
+/* Swiper Slide Styles */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9c9c9c;
+}
+
+.img2 {
+  width: 100%;
+  height: 380px; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area */
+  background-color: black;
+}
+
+/* Slide Content Styles */
+.slide-content {
+  position: absolute;
+  bottom: 20%; /* Adjust to position content appropriately */
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: start ;
+  width: 80%; /* Ensure width is responsive */
+  padding: 0 20px; /* Padding for better readability */
+}
+
+.slide-content h1 {
+  font-size: 45px; /* Adjust font size */
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+  transition: font-size 0.3s ease, color 0.3s ease;
+}
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .slide-content h1 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .slide-content {
+    width: 90%; /* Increase width for smaller screens */
+  }
+}
